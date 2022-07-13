@@ -1,4 +1,6 @@
-﻿int N;
+﻿//Напишите программу, которая на вход принимает число(N),
+// а на выходе показывает все четные числа от 1 до N.
+int N;
 Console.Write("Введите число: ");
 N = Convert.ToInt32(Console.ReadLine());
 int[] arroy = new int[N];
