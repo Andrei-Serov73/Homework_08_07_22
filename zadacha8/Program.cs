@@ -14,6 +14,6 @@ while (count < size)
     {
         Console.Write($"{arroy[index],3} ");
     }
-    arroy[index] = arroy[index] + 1;
-    count = count + 1;
+    arroy[index]++;
+    count++;
 }
